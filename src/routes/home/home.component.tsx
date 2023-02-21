@@ -1,8 +1,11 @@
+import Knowledge from "../../components/knowledge/knowledge.component"
+import { HomeContainer } from "./home.styles"
+
 const Home = () => {
 	return (
-		<div className="header">
-			
-		</div>
+		<HomeContainer>
+			<Knowledge />
+		</HomeContainer>
 	)
 }
 

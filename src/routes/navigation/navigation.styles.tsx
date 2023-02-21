@@ -1,9 +1,30 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const NavigationContainer = styled.div`
-	display: flex;
+	display: grid;
+	background-color: #272727;
 	text-transform: uppercase; 
 	justify-content: space-between;
-	padding: 40px;
+	padding: 140px;
 	align-items: center;	
+`
+
+export const Logo = styled(Link)`
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 40px; 
+	color: white;
+`
+
+export const Description = styled.p`
+	margin-top: 100px;
+	line-height: 30px; 
+	color: white;
+	justify-content: left;
+`
+
+export const GitHubLink = styled(Link)`
+	cursor: pointer;
+	color: white;
 `
