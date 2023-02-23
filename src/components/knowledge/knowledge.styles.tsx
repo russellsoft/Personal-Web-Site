@@ -5,6 +5,7 @@ export const KnowledgeContainer = styled.div`
 	display: flex;
 	justify-content: space-around;
 	text-transform: uppercase;
+	padding: 150px 0;
 `
 
 export const KnowledgeText = styled(Description)`
