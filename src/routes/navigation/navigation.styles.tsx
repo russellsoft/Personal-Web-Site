@@ -1,18 +1,22 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
+export const Header = styled.div`
+	display: flex;
+	background-color: #272727;
+	align-items: center;
+	justify-content: center;
+	height: 600px;
+`
+
 export const NavigationContainer = styled.div`
 	display: grid;
-	background-color: #272727;
+	width: 65%;
 	text-transform: uppercase; 
-	justify-content: space-between;
-	padding: 300px;
-	align-items: center;	
 `
 
 export const Logo = styled(Link)`
 	cursor: pointer;
-	margin-bottom: 100px;
 	text-decoration: none;
 	font-size: 40px; 
 	color: white;

@@ -1,9 +1,9 @@
-import { NavigationContainer } from "../../routes/navigation/navigation.styles";
+import { Header } from "../../routes/navigation/navigation.styles";
 import styled from "styled-components";
 import { ProjectsText } from "../projects/project.styles";
 import { Link } from "react-router-dom";
 
-export const FooterContainer = styled(NavigationContainer)`
+export const FooterContainer = styled(Header)`
 	display: flex;
 	color: white;
 	justify-content: space-around;
@@ -29,8 +29,8 @@ export const AddressContainer = styled.div`
 `
 
 export const MapContainer = styled.iframe`
-	width: 500px;
-	height: 250px;
+	width: 530px;
+	height: 240px;
 	border: 0;
 `
 

@@ -21,6 +21,5 @@ export const ProjectsList = styled.div`
 
 export const Project = styled.img`
 	border: 1px solid black;
-	width: 500px;
-	margin: 30px;
+	width: 80%;
 `
