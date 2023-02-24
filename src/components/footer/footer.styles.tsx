@@ -7,8 +7,7 @@ export const FooterContainer = styled(Header)`
 	display: flex;
 	color: white;
 	justify-content: space-around;
-	padding: 100px;
-	height: 1000px;
+	padding: 100px 100px 200px 100px;
 `
 
 export const SVG = styled.img``
