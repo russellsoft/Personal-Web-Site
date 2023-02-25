@@ -7,7 +7,7 @@ export const KnowledgeContainer = styled.div`
 	text-transform: uppercase;
 	padding: 150px 0;
 
-	@media (max-width: 541px) {
+	@media (max-width: 889px) {
 		display: grid;
 		text-align: center;
 		justify-content: center;
