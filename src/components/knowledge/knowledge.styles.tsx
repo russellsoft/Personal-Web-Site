@@ -6,6 +6,12 @@ export const KnowledgeContainer = styled.div`
 	justify-content: space-around;
 	text-transform: uppercase;
 	padding: 150px 0;
+
+	@media (max-width: 541px) {
+		display: grid;
+		text-align: center;
+		justify-content: center;
+	}
 `
 
 export const KnowledgeText = styled(Description)`
@@ -13,11 +19,13 @@ export const KnowledgeText = styled(Description)`
 	font-size: 32px;
 `
 
-export const KnowledgeUlContainer = styled.div``
+export const KnowledgeUlContainer = styled.div`
+`
 
 
 export const KnowledgeUL = styled.ul`
 	text-align: center;
+	padding: 0;
 `
 
 export const KnowledgeLI = styled.li`

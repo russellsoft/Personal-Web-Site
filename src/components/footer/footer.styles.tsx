@@ -7,7 +7,11 @@ export const FooterContainer = styled(Header)`
 	display: flex;
 	color: white;
 	justify-content: space-around;
-	padding: 100px 100px 200px 100px;
+
+	@media (max-width: 921px) {
+		display: grid;
+		height: 1000px;
+	}
 `
 
 export const SVG = styled.img``
@@ -29,9 +33,14 @@ export const AddressContainer = styled.div`
 `
 
 export const MapContainer = styled.iframe`
-	width: 530px;
+	width: 500px;
 	height: 240px;
 	border: 0;
+
+	@media (max-width: 541px) {
+		width: 261px;
+		height: 120px;
+	}
 `
 
 export const GithubSVG = styled(SVG)`
